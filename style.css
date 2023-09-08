@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'; 
+    background-color:rgba(246,249,254,255);
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+}
+.lista{
+    padding-top: 15px;
+}
+.lista ul{
+    
+    display: flex;
+    list-style: none;
+    
+}
+.lista a{
+    text-decoration: none;
+    color : rgba(1,41,112,255);
+    font-weight: bold;
+}
+.lista li{
+    margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+.logo{
+
+    margin-left: 25px;
+
+    
+}
+.logo h3{
+    font-size: 34px;
+    font-weight: lighter;
+    color: rgba(0,40,112,255);
+}
+
+.titulos h4{
+    text-align: center;
+    color:rgba(67,85,241,255);
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+.titulos p{
+    text-align: center;
+    color:rgba(1,41,112,255);
+    font-size: 30pt;
+    font-weight: bold;
+}
+.tarjetas .wave-frame {
+    text-align: center;
+
+}
+.tarjetas .wave-frame h5 {
+    color : rgba(1,41,112,255);
+    font-size: 30px;
+    font-weight: 550;
+    
+}
+.tarjetas{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+/* Contenedor del marco con forma de ola */
+.wave-frame {
+    
+
+    width: 25% ; /* Ancho de tu marco */
+    height: 800px;
+    margin-inline: 20px; 
+    border-radius: 2%;
+    border-style: solid 1px white; 
+  }
+  .wave-frame img{
+    width: 100%;
+    border-radius: 2%;
+     
+  }
+  
+
+  
+.footer{
+    display: flex;
+    text-align: justify;
+    padding: 50px;
+}
+.footer h3, h4{
+    color : rgba(1,41,112,255);
+}
+.footer h4{
+    text-transform: uppercase;
+}
+.footer .descripcion{
+    width: 600px;
+    margin-right: 100px;
+}
+.icons span{
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    color: rgba(69,69,68,255);
+}
+.twtt::before{
+    content: "\F099";
+}
+.fb::before{
+    content: "\f09a";
+}
+.instam::before{
+    content: "\f16d";
+}
+.linked::before{
+    content: "\f08c";
+}
+.footer .descripcion h3{
+    font-size: 34px;
+    font-weight: lighter;
+    color: rgba(0,40,112,255);
+}
+.footer .miscelanea{
+    display: flex;
+    width: 1000px;
+
+}
+.footer .miscelanea .useful
+{
+    width: 200px;
+    margin-right: 50px;
+}
+.footer .miscelanea .services
+{
+    width: 200px;
+    margin-right: 50px;
+}
+.icon::before{
+
+    content: url("assets/imgs/logo.png");
+}
+
+.footer .miscelanea .contact
+{
+    color: rgba(69,69,68,255);
+    text-align: left;
+    width: 175px;
+    margin-right: 50px;
+}
+.footer .miscelanea .contact address{
+    font-style: normal;
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
+.footer .miscelanea .contact span{
+    font-weight: bold;
+}
+.footer .miscelanea .contact p{
+    width: 300px;
+}
+.footer .miscelanea ul{
+    list-style: ">";
+    margin-left: 10px;
+   
+}
+.footer .miscelanea li{
+    margin-top: 15px;
+}
+.footer  a{
+    text-decoration: none;
+    color : rgba(1,41,112,255);
+}
+
+
+
+.copy-box{
+    color : rgba(1,41,112,255);
+    background-color: rgba(246,249,254,255);
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-top-style: solid;
+    
+
+
+}
+.copy-box p{
+    max-inline-size: 100%;
+    padding-left: 37%;
+    padding-right: 37%;
+    
+}
+
+.negrilla{
+    font-weight: bold;
+}
+.color-esp{
+    color: rgba(65,83,241,255);
+}
