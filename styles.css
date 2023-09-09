@@ -1,0 +1,128 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins';
+    }
+      
+    @font-face {
+          font-family: 'Poppins';
+          src: url('/assets/font/Poppins-Regular.ttf'); 
+          font-weight: normal;
+    }
+      
+    @font-face {
+          font-family: 'Poppins-Bold';
+          src: url('/assets/font/Poppins-Bold.ttf'); 
+          font-weight: bold;
+    }
+
+
+.final {
+    background-color: rgba(246,249,254,255);
+    padding-inline: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgba(0,40,112,255);
+}
+.negrilla{
+    font-weight: bold;
+}
+.color-esp{
+    color: rgba(67,85,241,255);
+}
+.flex-final{
+    padding: 50px;
+    display: flex;
+}
+.miscelanea{
+    display: flex;
+}
+.miscelanea h4 {
+
+    text-transform: uppercase;
+    color: rgba(0,40,112,255);
+}
+address{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    max-inline-size: 130pt;
+}
+.contact {
+    padding-bottom: 10px;
+}
+.descripcion{
+    width: 600px;
+    margin-right: 150px;
+}
+.flex-final a{
+    text-decoration: none;
+}
+.descripcion h3{
+    font-size: 34px;
+    font-weight: lighter;
+    color: rgba(0,40,112,255);
+}
+.miscelanea ul{
+    list-style: ">";
+}
+.miscelanea li{
+    margin-top: 15px;
+}
+.miscelanea .useful{
+    margin-right: 80px;
+}
+.miscelanea .services{
+    margin-right: 80px;
+}
+.contact span{
+    font-weight: bold;
+}
+.flexstart::before{
+    content: url("assets/imgs/logo.png");
+}
+.icons span{
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    color: rgba(69,69,68,255);
+}
+.twtt::before{
+    content: "\F099";
+}
+.fb::before{
+    content: "\f09a";
+}
+.instam::before{
+    content: "\f16d";
+}
+.linked::before{
+    content: "\f08c";
+}
+.tarjetas{
+    text-align: center;
+    display: flex;
+    margin-left: 50px;
+}
+.wave-frame {
+    width: 22%;
+    border-radius: 2%;
+    margin-inline: 10px;
+}
+.wave-frame img{
+    border-radius: 2%;
+    width: 100%;
+    
+}
+.titulos h4{
+    color: rgba(64,82,241,255);
+    text-transform: uppercase;
+    text-align: center;
+}
+.titulos p{
+    text-align: center;
+    color: rgba(0,40,112,255);
+    font-size: 30pt;
+    font-weight: bold;
+}
